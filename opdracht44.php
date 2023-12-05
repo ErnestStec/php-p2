@@ -1,6 +1,6 @@
 <?php
   // Auteur: Ernest
-  // Functie: Opdracht 4
+  // Functie: Opdracht 5
 
   // Initalisatie:
 
@@ -33,7 +33,7 @@ echo "<br>";
   $tekort = $prijs - $spaargeld;
 
   if ($tekort > 250) {
-    echo "Je spaargeld is nu: $spaargeld euro, je komt dus $tekord euro te kort! Je kan beter nog even een baantje gaan zoeken.";
+    echo "Je spaargeld is nu: $spaargeld euro, je komt dus $tekort euro te kort! Je kan beter nog even een baantje gaan zoeken.";
 } elseif ($tekort <= 250 && $tekort > 0) {
     echo "Je spaargeld is nu: $spaargeld euro, je hebt een tekort van $tekort euro. Je moet nog beetje sparen.";
 } else {
