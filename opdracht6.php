@@ -15,8 +15,7 @@ echo "Deze pagina heb je al: " . $_SESSION['page_views'] . " keer bekeken voorda
 echo "<br>";
 
   //6.2
-  session_start();
-  function getAndUpdateTotalVisits() {
+ function getAndUpdateTotalVisits() {
     $totalVisits = 0;
 
     if (isset($_COOKIE['total_visits'])) {
@@ -69,6 +68,7 @@ $omtrek = berekenOmtrek($straal);
 $oppervlakte = berekenOppervlakte($straal);
 
 echo "De omtrek van een cirkel met straal $straal is: $omtrek\n";
+echo "<br>";
 echo "De oppervlakte van een cirkel met straal $straal is: $oppervlakte\n";
 
 ?>
