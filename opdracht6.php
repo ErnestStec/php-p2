@@ -63,7 +63,7 @@ function berekenOppervlakte($straal) {
     $oppervlakte = $pi * pow($straal, 2);
     return round($oppervlakte, 1);
 }
-$straal = 5;
+$straal = 7;
 $omtrek = berekenOmtrek($straal);
 $oppervlakte = berekenOppervlakte($straal);
 
